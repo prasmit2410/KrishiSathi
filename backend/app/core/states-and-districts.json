@@ -1,0 +1,12 @@
+{
+  "states": [
+    {
+      "state": "Karnataka",
+      "districts": ["Bangalore", "Mysore"]
+    },
+    {
+      "state": "Maharashtra",
+      "districts": ["Mumbai", "Pune"]
+    }
+  ]
+}

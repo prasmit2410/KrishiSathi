@@ -1,0 +1,20 @@
+.env
+__pycache__/
+*.py[cod]
+*.db
+.venv/
+venv/
+env/
+*.pkl
+ml/crop_recommendation/models/*.pkl
+!ml/crop_recommendation/models/.gitkeep
+.pytest_cache/
+.mypy_cache/
+*.log
+.DS_Store
+DEPLOYMENT_GUIDE_NETLIFY_RENDER.md
+DEVELOPMENT_GUIDE.md
+Krishi Sathi.txt
+Krishi_Sathi_Phase_1_Plan.md
+Krishi_Sathi_Project_Report.md
+API_KEY_COMPARISON.md

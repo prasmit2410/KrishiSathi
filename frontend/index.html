@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Krishi Sathi — Crop Recommendation</title>
+  <meta name="description" content="AI-powered crop recommendation for Indian farmers. Get personalized crop advice in your language.">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <div class="container">
+  <h1 data-i18n="app_title">Krishi Sathi</h1>
+  <p class="subtitle" data-i18n="app_subtitle">AI-Powered Crop Recommendation</p>
+</header>
+
+    <main class="card">
+      <h2 data-i18n="form_heading">Tell us about your farm</h2>
+      <form id="recommendation-form">
+        <div class="form-group">
+          <label for="language" data-i18n="label_language">Preferred Language *</label>
+          <select id="language" name="language">
+            <option value="en">English</option>
+            <option value="hi">हिन्दी</option>
+            <option value="mr">मराठी</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="state" data-i18n="label_state">State *</label>
+          <select id="state" name="state" required></select>
+        </div>
+
+        <div class="form-group">
+          <label for="district" data-i18n="label_district">District *</label>
+          <select id="district" name="district" required disabled>
+            <option value="">Select state first</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="village" data-i18n="label_village">Village / Town</label>
+          <input type="text" id="village" name="village" placeholder="e.g. Hadapsar" maxlength="100">
+        </div>
+
+        <div class="form-row">
+          <div class="form-group flex-2">
+            <label for="land_area" data-i18n="label_land_area">Land Area *</label>
+            <input type="number" id="land_area" name="land_area" min="0.1" max="500" step="0.1" value="2" required>
+          </div>
+          <div class="form-group flex-1">
+            <label for="land_unit" data-i18n="label_unit">Unit</label>
+            <select id="land_unit" name="land_unit">
+              <option value="acres">Acres</option>
+              <option value="hectares">Hectares</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="soil_type" data-i18n="label_soil">Soil Type *</label>
+          <select id="soil_type" name="soil_type" required></select>
+        </div>
+
+        <div class="form-group">
+          <label for="season" data-i18n="label_season">Season</label>
+          <select id="season" name="season">
+            <option value="Kharif">Kharif</option>
+            <option value="Rabi">Rabi</option>
+            <option value="Zaid">Zaid</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label data-i18n="label_irrigation">Irrigation Available</label>
+          <div class="radio-group">
+            <label class="radio-label">
+              <input type="radio" name="irrigation_available" value="true" checked> <span data-i18n="label_yes">Yes</span>
+            </label>
+            <label class="radio-label">
+              <input type="radio" name="irrigation_available" value="false"> <span data-i18n="label_no">No</span>
+            </label>
+          </div>
+        </div>
+
+        <button type="submit" class="btn-primary" id="submit-btn" data-i18n="button_submit">
+          🌱 Get Recommendations
+        </button>
+      </form>
+
+      <div id="loading" class="loading hidden">
+        <div class="spinner"></div>
+        <p data-i18n="loading_text">Analyzing your farm conditions...</p>
+      </div>
+
+      <div id="error" class="error hidden"></div>
+    </main>
+
+    <footer class="footer">
+      <p>Phase 1 MVP — Krishi Sathi</p>
+    </footer>
+  </div>
+  <script src="/js/config.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>

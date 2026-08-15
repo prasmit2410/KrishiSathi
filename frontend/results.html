@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Krishi Sathi — Your Recommendations</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="logo">🌾</div>
+      <h1 data-i18n="title_results">Your Recommendations</h1>
+      <p class="subtitle" id="summary-text">Loading...</p>
+    </header>
+
+    <div id="pdf-content">
+      <div id="input-summary" class="input-summary hidden"></div>
+      <main id="results-container" class="results-container"></main>
+    </div>
+
+    <div id="disclaimer" class="disclaimer"></div>
+
+    <div class="actions">
+      <a href="/" class="btn-secondary" data-i18n="button_back">← New Recommendation</a>
+    </div>
+
+    <footer class="footer">
+      <p id="meta-info"></p>
+    </footer>
+  </div>
+  <script src="/js/config.js"></script>
+  <script src="/js/results.js"></script>
+</body>
+</html>

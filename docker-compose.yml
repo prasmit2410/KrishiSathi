@@ -1,0 +1,68 @@
+version: '3.9'
+
+services:
+  # PostgreSQL Database
+  db:
+    image: postgres:15-alpine
+    container_name: krishi_sathi_db
+    environment:
+      POSTGRES_DB: krishi_sathi
+      POSTGRES_USER: krishi
+      POSTGRES_PASSWORD: password
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./database/migrations:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U krishi"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - krishi_network
+
+  # Flask API Server
+  api:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: krishi_sathi_api
+    environment:
+      DATABASE_URL: postgresql://krishi:password@db:5432/krishi_sathi
+      OPENROUTER_API_KEY: ${OPENROUTER_API_KEY:-your-api-key}
+      FLASK_ENV: development
+      FLASK_APP: app.main:create_app
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./backend:/app
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - krishi_network
+    command: python -m flask run --host=0.0.0.0
+
+  # Frontend (optional - if using Node.js)
+  # frontend:
+  #   build:
+  #     context: ./frontend
+  #     dockerfile: Dockerfile
+  #   container_name: krishi_sathi_frontend
+  #   ports:
+  #     - "3000:3000"
+  #   volumes:
+  #     - ./frontend:/app
+  #   depends_on:
+  #     - api
+  #   networks:
+  #     - krishi_network
+
+volumes:
+  pgdata:
+    driver: local
+
+networks:
+  krishi_network:
+    driver: bridge

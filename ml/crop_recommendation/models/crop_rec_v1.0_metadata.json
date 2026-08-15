@@ -1,0 +1,109 @@
+{
+  "version": "crop_rec_v1.0",
+  "features": [
+    "state",
+    "district",
+    "soil_type",
+    "season",
+    "irrigation_available",
+    "land_area",
+    "climate_zone"
+  ],
+  "classes": [
+    "Cotton",
+    "Gram",
+    "Groundnut",
+    "Jowar",
+    "Maize",
+    "Onion",
+    "Rice",
+    "Soybean",
+    "Sunflower",
+    "Tur",
+    "Wheat"
+  ],
+  "top1_accuracy": 0.58,
+  "top3_accuracy": 0.9156,
+  "n_samples": 3000,
+  "classification_report": {
+    "Cotton": {
+      "precision": 0.38461538461538464,
+      "recall": 0.3125,
+      "f1-score": 0.3448275862068966,
+      "support": 16.0
+    },
+    "Gram": {
+      "precision": 0.46938775510204084,
+      "recall": 0.5111111111111111,
+      "f1-score": 0.48936170212765956,
+      "support": 45.0
+    },
+    "Groundnut": {
+      "precision": 0.7422680412371134,
+      "recall": 0.8,
+      "f1-score": 0.7700534759358288,
+      "support": 90.0
+    },
+    "Jowar": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 7.0
+    },
+    "Maize": {
+      "precision": 0.4222222222222222,
+      "recall": 0.36538461538461536,
+      "f1-score": 0.3917525773195876,
+      "support": 52.0
+    },
+    "Onion": {
+      "precision": 0.391304347826087,
+      "recall": 0.2727272727272727,
+      "f1-score": 0.32142857142857145,
+      "support": 33.0
+    },
+    "Rice": {
+      "precision": 0.8378378378378378,
+      "recall": 0.96875,
+      "f1-score": 0.8985507246376812,
+      "support": 32.0
+    },
+    "Soybean": {
+      "precision": 1.0,
+      "recall": 0.36363636363636365,
+      "f1-score": 0.5333333333333333,
+      "support": 11.0
+    },
+    "Sunflower": {
+      "precision": 0.5925925925925926,
+      "recall": 0.7079646017699115,
+      "f1-score": 0.6451612903225806,
+      "support": 113.0
+    },
+    "Tur": {
+      "precision": 0.375,
+      "recall": 0.4,
+      "f1-score": 0.3870967741935484,
+      "support": 15.0
+    },
+    "Wheat": {
+      "precision": 0.3870967741935484,
+      "recall": 0.3333333333333333,
+      "f1-score": 0.3582089552238806,
+      "support": 36.0
+    },
+    "accuracy": 0.58,
+    "macro avg": {
+      "precision": 0.5093022686933479,
+      "recall": 0.4577642998147825,
+      "f1-score": 0.4672522718845062,
+      "support": 450.0
+    },
+    "weighted avg": {
+      "precision": 0.5628517233851914,
+      "recall": 0.58,
+      "f1-score": 0.5645491052211735,
+      "support": 450.0
+    }
+  }
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "state": "Maharashtra",
+    "district": "Pune",
+    "climate_zone": "Semi-arid",
+    "dominant_crops": ["Soybean", "Sugarcane", "Jowar", "Cotton"],
+    "avg_rainfall_mm": 720,
+    "major_soil_types": ["Black", "Red", "Loamy"],
+    "kharif_crops": ["Soybean", "Cotton", "Jowar", "Rice", "Maize"],
+    "rabi_crops": ["Wheat", "Gram", "Sunflower", "Onion"]
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Nashik",
+    "climate_zone": "Semi-arid",
+    "dominant_crops": ["Grapes", "Onion", "Tomato", "Soybean"],
+    "avg_rainfall_mm": 680,
+    "major_soil_types": ["Black", "Red", "Laterite"],
+    "kharif_crops": ["Soybean", "Jowar", "Cotton", "Maize"],
+    "rabi_crops": ["Wheat", "Gram", "Onion", "Sunflower"]
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Aurangabad",
+    "climate_zone": "Semi-arid",
+    "dominant_crops": ["Cotton", "Soybean", "Jowar", "Tur"],
+    "avg_rainfall_mm": 650,
+    "major_soil_types": ["Black", "Red", "Loamy"],
+    "kharif_crops": ["Cotton", "Soybean", "Jowar", "Tur"],
+    "rabi_crops": ["Wheat", "Gram", "Sunflower"]
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Nagpur",
+    "climate_zone": "Sub-humid",
+    "dominant_crops": ["Cotton", "Soybean", "Tur", "Rice"],
+    "avg_rainfall_mm": 1050,
+    "major_soil_types": ["Black", "Alluvial", "Clay"],
+    "kharif_crops": ["Cotton", "Soybean", "Rice", "Tur"],
+    "rabi_crops": ["Wheat", "Gram", "Sunflower"]
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Kolhapur",
+    "climate_zone": "Humid",
+    "dominant_crops": ["Sugarcane", "Rice", "Tur", "Soybean"],
+    "avg_rainfall_mm": 1100,
+    "major_soil_types": ["Black", "Laterite", "Alluvial"],
+    "kharif_crops": ["Rice", "Sugarcane", "Soybean", "Tur"],
+    "rabi_crops": ["Wheat", "Gram", "Sunflower"]
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Satara",
+    "climate_zone": "Humid",
+    "dominant_crops": ["Sugarcane", "Tur", "Soybean", "Jowar"],
+    "avg_rainfall_mm": 1000,
+    "major_soil_types": ["Red", "Black", "Laterite"],
+    "kharif_crops": ["Sugarcane", "Soybean", "Jowar", "Tur"],
+    "rabi_crops": ["Wheat", "Gram", "Sunflower"]
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Ahmednagar",
+    "climate_zone": "Semi-arid",
+    "dominant_crops": ["Onion", "Jowar", "Gram", "Soybean"],
+    "avg_rainfall_mm": 550,
+    "major_soil_types": ["Black", "Red", "Loamy"],
+    "kharif_crops": ["Soybean", "Jowar", "Cotton", "Tur"],
+    "rabi_crops": ["Wheat", "Gram", "Onion", "Sunflower"]
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Solapur",
+    "climate_zone": "Arid",
+    "dominant_crops": ["Jowar", "Gram", "Soybean", "Sunflower"],
+    "avg_rainfall_mm": 600,
+    "major_soil_types": ["Black", "Red", "Sandy"],
+    "kharif_crops": ["Jowar", "Soybean", "Tur", "Cotton"],
+    "rabi_crops": ["Wheat", "Gram", "Sunflower"]
+  },
+  {
+    "state": "Karnataka",
+    "district": "Belgaum",
+    "climate_zone": "Semi-arid",
+    "dominant_crops": ["Sugarcane", "Jowar", "Groundnut", "Sunflower"],
+    "avg_rainfall_mm": 850,
+    "major_soil_types": ["Red", "Black", "Laterite"],
+    "kharif_crops": ["Jowar", "Groundnut", "Soybean", "Maize"],
+    "rabi_crops": ["Wheat", "Gram", "Sunflower"]
+  },
+  {
+    "state": "Gujarat",
+    "district": "Ahmedabad",
+    "climate_zone": "Arid",
+    "dominant_crops": ["Cotton", "Groundnut", "Wheat", "Tur"],
+    "avg_rainfall_mm": 800,
+    "major_soil_types": ["Alluvial", "Sandy", "Black"],
+    "kharif_crops": ["Cotton", "Groundnut", "Tur", "Maize"],
+    "rabi_crops": ["Wheat", "Gram", "Sunflower"]
+  }
+]

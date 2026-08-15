@@ -1,0 +1,964 @@
+{
+  "states": [
+    {
+      "state": "Andhra Pradesh",
+      "translated_state": "आंध्र प्रदेश",
+      "districts": [
+        {
+          "id": "Visakhapatnam",
+          "name": "विशाखापट्टणम"
+        },
+        {
+          "id": "Vijayawada",
+          "name": "विजयवाड़ा"
+        },
+        {
+          "id": "Guntur",
+          "name": "गुंटूर"
+        },
+        {
+          "id": "Nellore",
+          "name": "नेल्लोर"
+        },
+        {
+          "id": "Kurnool",
+          "name": "कुर्नूल"
+        },
+        {
+          "id": "Tirupati",
+          "name": "तिरुपती"
+        },
+        {
+          "id": "Kadapa",
+          "name": "कडप्पा"
+        },
+        {
+          "id": "Anantapur",
+          "name": "अनंतपुर"
+        },
+        {
+          "id": "Kakinada",
+          "name": "काकीनाडा"
+        },
+        {
+          "id": "Eluru",
+          "name": "एलुरु"
+        }
+      ]
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "translated_state": "अरुणाचल प्रदेश",
+      "districts": [
+        {
+          "id": "Tawang",
+          "name": "तवांग"
+        },
+        {
+          "id": "Itanagar",
+          "name": "इटाली"
+        },
+        {
+          "id": "Ziro",
+          "name": "झिरो"
+        },
+        {
+          "id": "Pasighat",
+          "name": "पासीघाट"
+        },
+        {
+          "id": "Bomdila",
+          "name": "बोमडिला"
+        }
+      ]
+    },
+    {
+      "state": "Assam",
+      "translated_state": "आसाम",
+      "districts": [
+        {
+          "id": "Guwahati",
+          "name": "गुवाहाटी"
+        },
+        {
+          "id": "Silchar",
+          "name": "सिल्चर"
+        },
+        {
+          "id": "Dibrugarh",
+          "name": "दिब्रुगढ"
+        },
+        {
+          "id": "Jorhat",
+          "name": "जोरहाट"
+        },
+        {
+          "id": "Nagaon",
+          "name": "नागाव"
+        },
+        {
+          "id": "Tezpur",
+          "name": "तेझपूर"
+        },
+        {
+          "id": "Tinsukia",
+          "name": "तिनसुकिया"
+        },
+        {
+          "id": "Bongaigaon",
+          "name": "बोंगाईगाव"
+        }
+      ]
+    },
+    {
+      "state": "Bihar",
+      "translated_state": "बिहार",
+      "districts": [
+        {
+          "id": "Patna",
+          "name": "पाटणा"
+        },
+        {
+          "id": "Gaya",
+          "name": "गया"
+        },
+        {
+          "id": "Bhagalpur",
+          "name": "भागलपूर"
+        },
+        {
+          "id": "Muzaffarpur",
+          "name": "मुजफ्फरपूर"
+        },
+        {
+          "id": "Purnia",
+          "name": "पूर्णिया"
+        },
+        {
+          "id": "Darbhanga",
+          "name": "दरभंगा"
+        },
+        {
+          "id": "Arrah",
+          "name": "आरा"
+        },
+        {
+          "id": "Begusarai",
+          "name": "बेगुसराय"
+        }
+      ]
+    },
+    {
+      "state": "Chhattisgarh",
+      "translated_state": "छत्तीसगड",
+      "districts": [
+        {
+          "id": "Raipur",
+          "name": "रायपूर"
+        },
+        {
+          "id": "Bhilai",
+          "name": "भिलाई"
+        },
+        {
+          "id": "Bilaspur",
+          "name": "बिलासपूर"
+        },
+        {
+          "id": "Korba",
+          "name": "कोरबा"
+        },
+        {
+          "id": "Raigarh",
+          "name": "रायगड"
+        },
+        {
+          "id": "Rajnandgaon",
+          "name": "राजनांदगाव"
+        },
+        {
+          "id": "Jagdalpur",
+          "name": "जगदलपूर"
+        },
+        {
+          "id": "Ambikapur",
+          "name": "अंबिकापूर"
+        }
+      ]
+    },
+    {
+      "state": "Goa",
+      "translated_state": "गोवा",
+      "districts": [
+        {
+          "id": "North Goa",
+          "name": "उत्तर गोवा"
+        },
+        {
+          "id": "South Goa",
+          "name": "दक्षिण गोवा"
+        }
+      ]
+    },
+    {
+      "state": "Gujarat",
+      "translated_state": "गुजरात",
+      "districts": [
+        {
+          "id": "Ahmedabad",
+          "name": "अहमदाबाद"
+        },
+        {
+          "id": "Surat",
+          "name": "सूरत"
+        },
+        {
+          "id": "Vadodara",
+          "name": "वडोदरा"
+        },
+        {
+          "id": "Rajkot",
+          "name": "राजकोट"
+        },
+        {
+          "id": "Bhavnagar",
+          "name": "भावनगर"
+        },
+        {
+          "id": "Jamnagar",
+          "name": "जामनगर"
+        },
+        {
+          "id": "Gandhinagar",
+          "name": "गांधीनगर"
+        },
+        {
+          "id": "Junagadh",
+          "name": "जुनागढ"
+        }
+      ]
+    },
+    {
+      "state": "Haryana",
+      "translated_state": "हरियाणा",
+      "districts": [
+        {
+          "id": "Faridabad",
+          "name": "फरिदाबाद"
+        },
+        {
+          "id": "Gurugram",
+          "name": "गुरुग्राम"
+        },
+        {
+          "id": "Panipat",
+          "name": "पानिपत"
+        },
+        {
+          "id": "Ambala",
+          "name": "अंबाला"
+        },
+        {
+          "id": "Yamunanagar",
+          "name": "यमुनानगर"
+        },
+        {
+          "id": "Rohtak",
+          "name": "रोहतक"
+        },
+        {
+          "id": "Hisar",
+          "name": "हिसार"
+        },
+        {
+          "id": "Karnal",
+          "name": "कर्नाल"
+        }
+      ]
+    },
+    {
+      "state": "Himachal Pradesh",
+      "translated_state": "हिमाचल प्रदेश",
+      "districts": [
+        {
+          "id": "Shimla",
+          "name": "शिमला"
+        },
+        {
+          "id": "Dharamshala",
+          "name": "धर्मशाला"
+        },
+        {
+          "id": "Mandi",
+          "name": "मंडी"
+        },
+        {
+          "id": "Solan",
+          "name": "सोलन"
+        },
+        {
+          "id": "Kullu",
+          "name": "कुल्लू"
+        },
+        {
+          "id": "Chamba",
+          "name": "चंबा"
+        },
+        {
+          "id": "Hamirpur",
+          "name": "हमीरपूर"
+        },
+        {
+          "id": "Una",
+          "name": "ऊना"
+        }
+      ]
+    },
+    {
+      "state": "Jharkhand",
+      "translated_state": "झारखंड",
+      "districts": [
+        {
+          "id": "Ranchi",
+          "name": "रांची"
+        },
+        {
+          "id": "Jamshedpur",
+          "name": "जमशेदपूर"
+        },
+        {
+          "id": "Dhanbad",
+          "name": "धनबाद"
+        },
+        {
+          "id": "Bokaro",
+          "name": "बोकारो"
+        },
+        {
+          "id": "Deoghar",
+          "name": "देवघर"
+        },
+        {
+          "id": "Hazaribagh",
+          "name": "हजारीबाग"
+        },
+        {
+          "id": "Giridih",
+          "name": "गिरिडीह"
+        },
+        {
+          "id": "Ramgarh",
+          "name": "रामगढ"
+        }
+      ]
+    },
+    {
+      "state": "Karnataka",
+      "translated_state": "कर्नाटक",
+      "districts": [
+        {
+          "id": "Bangalore",
+          "name": "बंगळुरू"
+        },
+        {
+          "id": "Mysore",
+          "name": "म्हैसूर"
+        },
+        {
+          "id": "Hubli",
+          "name": "हुबळी"
+        },
+        {
+          "id": "Mangalore",
+          "name": "मंगळुरू"
+        },
+        {
+          "id": "Belgaum",
+          "name": "बेळगाव"
+        },
+        {
+          "id": "Gulbarga",
+          "name": "गुलबर्गा"
+        },
+        {
+          "id": "Davanagere",
+          "name": "दावणगेरे"
+        },
+        {
+          "id": "Bellary",
+          "name": "बेळगाव"
+        }
+      ]
+    },
+    {
+      "state": "Kerala",
+      "translated_state": "केरळ",
+      "districts": [
+        {
+          "id": "Thiruvananthapuram",
+          "name": "तिरुवनंतपुरम"
+        },
+        {
+          "id": "Kochi",
+          "name": "कोची"
+        },
+        {
+          "id": "Kozhikode",
+          "name": "कोझिकोड"
+        },
+        {
+          "id": "Kollam",
+          "name": "കൊല്ലം"
+        },
+        {
+          "id": "Thrissur",
+          "name": "त्रिशूर"
+        },
+        {
+          "id": "Palakkad",
+          "name": "पलक्कड"
+        },
+        {
+          "id": "Alappuzha",
+          "name": "आलपुळा"
+        },
+        {
+          "id": "Kannur",
+          "name": "कन्नूर"
+        }
+      ]
+    },
+    {
+      "state": "Madhya Pradesh",
+      "translated_state": "मध्य प्रदेश",
+      "districts": [
+        {
+          "id": "Indore",
+          "name": "इंदौर"
+        },
+        {
+          "id": "Bhopal",
+          "name": "भोपाळ"
+        },
+        {
+          "id": "Jabalpur",
+          "name": "जबलपूर"
+        },
+        {
+          "id": "Gwalior",
+          "name": "ग्वाल्हेर"
+        },
+        {
+          "id": "Ujjain",
+          "name": "उज्जैन"
+        },
+        {
+          "id": "Sagar",
+          "name": "सागर"
+        },
+        {
+          "id": "Rewa",
+          "name": "रीवा"
+        },
+        {
+          "id": "Satna",
+          "name": "सतना"
+        },
+        {
+          "id": "Ratlam",
+          "name": "रतलाम"
+        }
+      ]
+    },
+    {
+      "state": "Maharashtra",
+      "translated_state": "महाराष्ट्र",
+      "districts": [
+        {
+          "id": "Mumbai",
+          "name": "मुंबई"
+        },
+        {
+          "id": "Pune",
+          "name": "पुणे"
+        },
+        {
+          "id": "Nagpur",
+          "name": "नागपूर"
+        },
+        {
+          "id": "Nashik",
+          "name": "नाशिक"
+        },
+        {
+          "id": "Thane",
+          "name": "ठाणे"
+        },
+        {
+          "id": "Aurangabad",
+          "name": "औरंगाबाद"
+        },
+        {
+          "id": "Solapur",
+          "name": "सोलापूर"
+        },
+        {
+          "id": "Amravati",
+          "name": "अमरावती"
+        },
+        {
+          "id": "Kolhapur",
+          "name": "कोल्हापूर"
+        }
+      ]
+    },
+    {
+      "state": "Manipur",
+      "translated_state": "मणिपूर",
+      "districts": [
+        {
+          "id": "Imphal",
+          "name": "इंफाळ"
+        },
+        {
+          "id": "Thoubal",
+          "name": "थौबल"
+        },
+        {
+          "id": "Churachandpur",
+          "name": "चुराचंदपूर"
+        },
+        {
+          "id": "Bishnupur",
+          "name": "बिष्णुपूर"
+        }
+      ]
+    },
+    {
+      "state": "Meghalaya",
+      "translated_state": "मेघालय",
+      "districts": [
+        {
+          "id": "Shillong",
+          "name": "शिलाँग"
+        },
+        {
+          "id": "Tura",
+          "name": "तुरा"
+        },
+        {
+          "id": "Jowai",
+          "name": "जोवानी"
+        },
+        {
+          "id": "Nongstoin",
+          "name": "नोंगस्टोइन"
+        },
+        {
+          "id": "Williamnagar",
+          "name": "विल्यमनगर"
+        }
+      ]
+    },
+    {
+      "state": "Mizoram",
+      "translated_state": "मिझोरम",
+      "districts": [
+        {
+          "id": "Aizawl",
+          "name": "ऐझवाल"
+        },
+        {
+          "id": "Lunglei",
+          "name": "लुंगलेई"
+        },
+        {
+          "id": "Saiha",
+          "name": "साईहा"
+        },
+        {
+          "id": "Champhai",
+          "name": "चामफई"
+        }
+      ]
+    },
+    {
+      "state": "Nagaland",
+      "translated_state": "नागालँड",
+      "districts": [
+        {
+          "id": "Kohima",
+          "name": "कोहिमा"
+        },
+        {
+          "id": "Dimapur",
+          "name": "दिमापूर"
+        },
+        {
+          "id": "Mokokchung",
+          "name": "मोकोकचुंग"
+        },
+        {
+          "id": "Tuensang",
+          "name": "त्युएनसांग"
+        },
+        {
+          "id": "Wokha",
+          "name": "वोखा"
+        }
+      ]
+    },
+    {
+      "state": "Odisha",
+      "translated_state": "ओडिशा",
+      "districts": [
+        {
+          "id": "Bhubaneswar",
+          "name": "भुवनेश्वर"
+        },
+        {
+          "id": "Cuttack",
+          "name": "कटक"
+        },
+        {
+          "id": "Rourkela",
+          "name": "राउरकेला"
+        },
+        {
+          "id": "Berhampur",
+          "name": "बेहरामपूर"
+        },
+        {
+          "id": "Sambalpur",
+          "name": "संबळपूर"
+        },
+        {
+          "id": "Puri",
+          "name": "पुरी"
+        },
+        {
+          "id": "Balasore",
+          "name": "बालासोर"
+        },
+        {
+          "id": "Bhadrak",
+          "name": "भद्राक"
+        }
+      ]
+    },
+    {
+      "state": "Punjab",
+      "translated_state": "पंजाब",
+      "districts": [
+        {
+          "id": "Ludhiana",
+          "name": "लुधियाना"
+        },
+        {
+          "id": "Amritsar",
+          "name": "अमृतसर"
+        },
+        {
+          "id": "Jalandhar",
+          "name": "जलंधर"
+        },
+        {
+          "id": "Patiala",
+          "name": "पटियाला"
+        },
+        {
+          "id": "Bathinda",
+          "name": "भटिंडा"
+        },
+        {
+          "id": "Hoshiarpur",
+          "name": "होशियारपूर"
+        },
+        {
+          "id": "Mohali",
+          "name": "मोहाली"
+        },
+        {
+          "id": "Pathankot",
+          "name": "पठानकोट"
+        }
+      ]
+    },
+    {
+      "state": "Rajasthan",
+      "translated_state": "राजस्थान",
+      "districts": [
+        {
+          "id": "Jaipur",
+          "name": "जयपूर"
+        },
+        {
+          "id": "Jodhpur",
+          "name": "जोधपूर"
+        },
+        {
+          "id": "Udaipur",
+          "name": "उदयपूर"
+        },
+        {
+          "id": "Kota",
+          "name": "कोटा"
+        },
+        {
+          "id": "Bikaner",
+          "name": "बिकानेर"
+        },
+        {
+          "id": "Ajmer",
+          "name": "अजमेर"
+        },
+        {
+          "id": "Bhilwara",
+          "name": "भिलवाडा"
+        },
+        {
+          "id": "Alwar",
+          "name": "अलवर"
+        }
+      ]
+    },
+    {
+      "state": "Sikkim",
+      "translated_state": "सिक्कीम",
+      "districts": [
+        {
+          "id": "Gangtok",
+          "name": "गंगटोक"
+        },
+        {
+          "id": "Namchi",
+          "name": "नामची"
+        },
+        {
+          "id": "Geyzing",
+          "name": "गेझिंग"
+        },
+        {
+          "id": "Mangan",
+          "name": "मंगन"
+        }
+      ]
+    },
+    {
+      "state": "Tamil Nadu",
+      "translated_state": "तामीळनाडू",
+      "districts": [
+        {
+          "id": "Chennai",
+          "name": "चेन्नई"
+        },
+        {
+          "id": "Coimbatore",
+          "name": "कोयम्बत्तूर"
+        },
+        {
+          "id": "Madurai",
+          "name": "मदुराई"
+        },
+        {
+          "id": "Tiruchirappalli",
+          "name": "तिरुचिरापल्ली"
+        },
+        {
+          "id": "Salem",
+          "name": "सालेम"
+        },
+        {
+          "id": "Tirunelveli",
+          "name": "तिरुनेलवेली"
+        },
+        {
+          "id": "Tiruppur",
+          "name": "तिरुपूर"
+        },
+        {
+          "id": "Vellore",
+          "name": "वेल्लोर"
+        }
+      ]
+    },
+    {
+      "state": "Telangana",
+      "translated_state": "तेलंगणा",
+      "districts": [
+        {
+          "id": "Hyderabad",
+          "name": "हैदराबाद"
+        },
+        {
+          "id": "Warangal",
+          "name": "वारंगल"
+        },
+        {
+          "id": "Nizamabad",
+          "name": "निजामाबाद"
+        },
+        {
+          "id": "Karimnagar",
+          "name": "करीमनगर"
+        },
+        {
+          "id": "Ramagundam",
+          "name": "रामागुंडम"
+        },
+        {
+          "id": "Khammam",
+          "name": "खम्मम"
+        },
+        {
+          "id": "Mahbubnagar",
+          "name": "महाबूनगर"
+        },
+        {
+          "id": "Nalgonda",
+          "name": "नाल्लगोंडा"
+        }
+      ]
+    },
+    {
+      "state": "Tripura",
+      "translated_state": "त्रिपुरा",
+      "districts": [
+        {
+          "id": "Agartala",
+          "name": "आगरतळा"
+        },
+        {
+          "id": "Dharmanagar",
+          "name": "धर्मनगर"
+        },
+        {
+          "id": "Udaipur",
+          "name": "उदयपूर"
+        },
+        {
+          "id": "Kailashahar",
+          "name": "कैलासशहर"
+        },
+        {
+          "id": "Bishalgarh",
+          "name": "बिशालगढ"
+        }
+      ]
+    },
+    {
+      "state": "Uttar Pradesh",
+      "translated_state": "उत्तर प्रदेश",
+      "districts": [
+        {
+          "id": "Lucknow",
+          "name": "लखनौ"
+        },
+        {
+          "id": "Kanpur",
+          "name": "कानपूर"
+        },
+        {
+          "id": "Agra",
+          "name": "आग्र"
+        },
+        {
+          "id": "Varanasi",
+          "name": "वाराणसी"
+        },
+        {
+          "id": "Prayagraj",
+          "name": "प्रयागराज"
+        },
+        {
+          "id": "Meerut",
+          "name": "मेरठ"
+        },
+        {
+          "id": "Noida",
+          "name": "नोएडा"
+        },
+        {
+          "id": "Ghaziabad",
+          "name": "गाझियाबाद"
+        },
+        {
+          "id": "Gorakhpur",
+          "name": "गोरखपूर"
+        }
+      ]
+    },
+    {
+      "state": "Uttarakhand",
+      "translated_state": "उत्तराखंड",
+      "districts": [
+        {
+          "id": "Dehradun",
+          "name": "डेहराडून"
+        },
+        {
+          "id": "Haridwar",
+          "name": "हरिद्वार"
+        },
+        {
+          "id": "Roorkee",
+          "name": "रुडकी"
+        },
+        {
+          "id": "Haldwani",
+          "name": "हल्द्वानी"
+        },
+        {
+          "id": "Rudrapur",
+          "name": "रुद्रपुर"
+        },
+        {
+          "id": "Kashipur",
+          "name": "काशीपुर"
+        },
+        {
+          "id": "Rishikesh",
+          "name": "ऋषिकेश"
+        }
+      ]
+    },
+    {
+      "state": "West Bengal",
+      "translated_state": "पश्चिम बंगाल",
+      "districts": [
+        {
+          "id": "Kolkata",
+          "name": "कोलकाता"
+        },
+        {
+          "id": "Howrah",
+          "name": "हावडा"
+        },
+        {
+          "id": "Darjeeling",
+          "name": "दार्जिलिंग"
+        },
+        {
+          "id": "Siliguri",
+          "name": "सिलीगुडी"
+        },
+        {
+          "id": "Asansol",
+          "name": "आसनसोल"
+        },
+        {
+          "id": "Durgapur",
+          "name": "दुर्गापूर"
+        },
+        {
+          "id": "Kharagpur",
+          "name": "खडकपूर"
+        },
+        {
+          "id": "Haldia",
+          "name": "हल्दिया"
+        }
+      ]
+    }
+  ]
+}

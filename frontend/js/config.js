@@ -8,4 +8,4 @@
  *   Change API_BASE to your Render service URL, e.g.:
  *   const API_BASE = "https://krishi-sathi-api.onrender.com";
  */
-const API_BASE = "";
+const API_BASE = "https://krishisathi-g6se.onrender.com";

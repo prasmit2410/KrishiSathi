@@ -229,36 +229,8 @@ pip install -r requirements.txt
 Create a `.env` file in the project root:
 
 ```env
-# Flask
-FLASK_ENV=development
-FLASK_SECRET_KEY=change-me-in-production
-API_HOST=0.0.0.0
-API_PORT=5000
 
-# Database (SQLite for local dev)
-DATABASE_URL=sqlite:///krishi_sathi.db
 
-# Sarvam AI — REQUIRED for Hindi/Marathi translation
-SARVAM_API_KEY=sk_...
-
-# OpenRouter — optional, for LLM crop explanations
-OPENROUTER_API_KEY=sk-or-v1-...
-OPENROUTER_MODEL=google/gemma-4-26b-a4b-it:free
-OPENROUTER_BASE_URL=https://openrouter.ai/api/v1
-OPENROUTER_MAX_TOKENS=2048
-OPENROUTER_TIMEOUT_SECONDS=30
-
-# Tavily — optional, for crop images
-TAVILY_API_KEY=tvly-...
-
-# ML Model
-ML_MODEL_PATH=ml/crop_recommendation/models/crop_rec_v1.0.pkl
-ML_MODEL_VERSION=crop_rec_v1.0
-ML_CONFIDENCE_THRESHOLD=0.5
-
-# Agent
-AGENT_TIMEOUT_SECONDS=30
-USE_CREWAI=false
 ```
 
 ### 5. Run the App

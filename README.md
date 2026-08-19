@@ -24,6 +24,11 @@ The system is designed to be **language-first** — serving all content (UI labe
 
 ---
 
+**Link for the Web-app :- [🌾KrishiSathi]( https://sathikrishi.netlify.app/)**
+
+---
+
+
 ## ✨ Features
 
 | Feature | Description |
